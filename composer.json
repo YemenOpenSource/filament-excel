@@ -1,0 +1,30 @@
+{
+    "name": "yemenopensource/filament-excel",
+    "description": "This package useful for importing excel files into models.",
+    "type": "library",
+    "version": "0.1.0",
+    "require": {
+        "maatwebsite/excel": "^3.1",
+        "illuminate/support": "^11"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "YOS\\FilamentExcel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "muathye",
+            "email": "muath.ye@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "extra": {
+        "laravel": {
+            "providers": [
+                "YOS\\FilamentExcel\\ServiceProvider"
+            ]
+        }
+    }
+}
